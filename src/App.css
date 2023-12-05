@@ -1,3 +1,8 @@
+* {
+  font-family: "Hedvig Letters Serif", serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -22,8 +27,35 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 10px 0;
 }
 
+.App-header h3 {
+  margin: 0;
+  background: -webkit-linear-gradient(#bfede9, #e32735);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.profile img {
+  border-radius: 100%;
+  padding: 2px;
+  margin: 0 5px;
+  border: solid 1px #ccc;
+}
+.profile span {
+  font-size: 16px;
+  display: inline-block;
+  line-height: 30px;
+}
 .App-link {
   color: #61dafb;
 }
